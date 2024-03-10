@@ -16,8 +16,15 @@
 
 .stock-heading{
     font-family: "Playfair Display";
-    -webkit-text-stroke: 1px #d3b683;
+    -webkit-text-stroke: 1px #f9b615;
     font-weight: bolder;
     color: transparent;
     margin: 0;
+}
+.golden{
+    background-color: linear-gradient(to right,gold,#f9b615);
+}
+.sh{
+    color: #ffbf00;
+    text-shadow: 1px 5px 5px rgba(255, 191, 105, 1.577);
 }
