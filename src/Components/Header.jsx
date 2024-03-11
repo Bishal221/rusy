@@ -33,7 +33,7 @@ const Header = () => {
             onClick={handleScrollToTop}
             aria-label="scroll to top"
             className={`${shown ? "scale-100" : "scale-0"
-              } w-12 h-12 bg-[#f9b615] text-white z-50 transition-all duration-500 flex fixed right-10 bottom-10 bg-primary rounded-full shadow-lg shadow-gray-900 justify-center items-center`}
+              } w-12 h-12 bg_golden text-white z-50 transition-all duration-500 flex fixed right-10 bottom-10 bg-primary rounded-full shadow-lg shadow-gray-900 justify-center items-center`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -64,22 +64,22 @@ const Header = () => {
           <div className="relative flex flex-wrap items-center justify-between">
             <a
               href="#"
-              className="max-w-32 md:max-w-40 text-[rgba(0,0,0,0.9)] inline-block py-[.3125rem] mr-4 text-lg "
+              className="max-w-32 md:max-w-64 text-[rgba(0,0,0,0.9)] inline-block py-[.3125rem] mr-4 text-lg "
             >
-              <img src="/Res/Logo.png" alt="" />
+              <img src="/Res/logo2.png" alt="" />
             </a>
-            <div className="flex gap-x-3 items-center justify-between">
+            <div className="flex gap-x-2 items-center justify-between">
               <div>
                 <a
                   href="#"
-                  className="bg-[#f9b615] font-semibold uppercase text-white text-xs block tracking-[0.9px] px-4 pt-2 pb-2 rounded-2xl"
+                  className="bg_golden font-semibold uppercase text-white text-xs block tracking-[0.9px] px-3 md:px-4 pt-2 pb-2 rounded-2xl"
                 >
                   Book Appointment
                 </a>
               </div>
               <button
                 onClick={handleMenutoggle}
-                className="bg-[#f9b615] text-white px-3 py-1"
+                className="bg_golden text-white px-3 py-1"
               >
                 <i className="fa-solid fa-bars"></i>
               </button>
@@ -87,56 +87,50 @@ const Header = () => {
           </div>
         </nav>
         <aside
-          className={`fixed bg-[#272727] h-screen max-w-72 w-full top-0 ${menuActive ? "right-0" : "-right-96"
+          className={`fixed bg-black h-screen max-w-72 w-full top-0 ${menuActive ? "right-0" : "-right-96"
             } z-50 transition-right duration-300`}
         >
           <div className=" w-full h-full relative flex flex-col justify-center">
             <button
               onClick={handleMenutoggle}
-              className="bg-[#f9b615] text-white px-4 py-2 absolute top-0 -left-[45px]"
+              className="bg_golden text-white px-4 py-2 absolute top-0 -left-[45px]"
             >
               <i className="fa-solid fa-bars"></i>
             </button>
-            <div className="text-[#f9b615] flex justify-center flex-col px-6 gap-y-3 font-playfair">
+            <div className=" flex justify-center flex-col px-6 gap-y-3 font-playfair">
               <a
-                className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-                href="#"
+                className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
+                href="/"
               >
                 Home
               </a>
               <a
-                className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-                href="#"
+                className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
+                href="/about-us"
               >
                 About Us
               </a>
               <a
-                className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-                href="#"
+                className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
+                href="/services"
               >
                 Services
               </a>
               <a
-                className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-                href="#"
+                className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
+                href="/contact-us"
               >
-                Portfolio
+                Contact Us
               </a>
               <a
-                className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
+                className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
                 href="#"
               >
-                Channels
+                Spa
               </a>
               <a
-                className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-                href="#"
-              >
-                Salon
-              </a>
-              <a
-                className="block px-3 py-2 text-2xl hover:bg-[#171717] rounded-lg font-semibold"
-                href="#"
+                className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
+                href="/franchise"
               >
                 Franchise
               </a>

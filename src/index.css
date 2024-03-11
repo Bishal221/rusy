@@ -21,10 +21,25 @@
     color: transparent;
     margin: 0;
 }
-.golden{
-    background-color: linear-gradient(to right,gold,#f9b615);
+.stock-heading-white{
+    font-family: "Playfair Display";
+    -webkit-text-stroke: 1px white;
+    font-weight: bolder;
+    color: transparent;
+    margin: 0;
 }
-.sh{
-    color: #ffbf00;
-    text-shadow: 1px 5px 5px rgba(255, 191, 105, 1.577);
+.golden{
+    background: linear-gradient(to bottom,#f4de54,#b17908);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg_golden{
+   background: linear-gradient(to bottom,#f4de54,#b17908);
+}
+
+.golden-hover:hover{
+    background: linear-gradient(to bottom,#f4de54,#b17908);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
