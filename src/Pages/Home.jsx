@@ -79,8 +79,8 @@ const Home = () => {
             <p className="text-white tracking-widest uppercase text-center">
               THE ONE AND ONLY DESTINATION FOR
             </p>
-            <h3 className="text-lg md:text-xl text-center lg:text-3xl font-semibold golden tracking-widest">
-              MASSAGE & FACIAL 
+            <h3 className="text-lg md:text-xl text-center text-white lg:text-3xl font-semibold tracking-widest">
+               <span className="golden">MASSAGE</span> & <span className="golden">FACIAL</span> 
             </h3>
             <h2 className="font-light text-center text-lg sm:text-xl md:text-2xl lg:text-3xl tracking-widest text-white">
               BY Rusy A Laurent
@@ -178,11 +178,11 @@ const Home = () => {
                 />
               </SwiperSlide>
             </Swiper>
-            <div className="flex justify-center items-center gap-x-6 py-5">
+            <div className="flex justify-center items-center gap-x-6 py-5 text-white">
               <button className="golde text-2xl" onClick={preSlide}>
                 <i className="fa-solid fa-arrow-left-long"></i>
               </button>
-              <p className="golde">
+              <p className="golden font-medium">
                 {currentSlide} / {totalslide}
               </p>
               <button className="golde text-2xl" onClick={nextSlide}>
@@ -195,7 +195,7 @@ const Home = () => {
         <section className="flex flex-col justify-center items-center py-10 gap-y-10 px-4">
           <div className="container relative z-10">
             <div className="w-full lg:w-fit md:pl-5 pl-0">
-              <h2 className="stock-heading sm:text-[4rem] text-[2.75rem] lg:text-left text-center w-full lg:w-fit absolute -z-10 sm:-top-[3rem] -top-[1.75rem] sm:-left-[.5rem]">
+              <h2 className="stock-heading sm:text-[4rem] text-[2.75rem] lg:text-left text-center w-full lg:w-fit absolute -z-10 sm:-top-[3rem] -top-[2rem] sm:-left-[.5rem]">
                 Rusy A Laurent
               </h2>
               <h2 className="text-[1.75rem] sm:text-[2.5rem] lg:text-left text-center text-white font-bold">

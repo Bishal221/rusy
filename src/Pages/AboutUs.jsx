@@ -3,7 +3,7 @@ import Header from "../Components/Header.jsx";
 import Footer from "../Components/Footer.jsx";
 const AboutUs = () => {
     return <>
-        <section className=" bg-black">
+        <section className=" bg-black overflow-hidden">
             <Header />
             <section className="pt-28 pb-8 px-6">
                 <ul className="text-lg flex-wrap flex justify-center items-center list-disc gap-x-20 gap-y-3 max-w-[1500px] mx-auto font-normal">
@@ -51,7 +51,7 @@ const AboutUs = () => {
                     <div className="container mx-auto sm:px-4 max-w-full">
                         <div className="flex flex-wrap">
                             <div className="md:w-1/6 pr-4 pl-4"></div>
-                            <div className="md:w-4/5 pr-4 pl-4">
+                            <div className="md:w-4/5">
                                 <div className="flex flex-wrap ">
                                     <div className="lg:w-full pr-4 pl-4">
                                         <div className="py-[30px 0px] text-center">
@@ -61,18 +61,18 @@ const AboutUs = () => {
                                 </div>
                                 <div className="flex flex-wrap">
                                     <div className="lg:w-1/2 pr-4 pl-4 md:mr-0 md:pr-0">
-                                        <div className="tab-img">
-                                            <img className="max-w-[100%] h-auto" src="https://cdn.pixabay.com/photo/2022/06/29/17/18/towel-7292195_960_720.jpg" />
+                                        <div className="tab-img overflow-hidden">
+                                            <img className="max-w-[100%] object-cover h-auto" src="https://cdn.pixabay.com/photo/2022/06/29/17/18/towel-7292195_960_720.jpg" />
                                         </div>
                                     </div>
                                     <div className="lg:w-1/2 pr-4 pl-4 md:ml-0 md:pl-0">
 
                                         <div className="tab-pane-content text-white">
-                                            <div className="relative " data-wow-iteration="infinite" data-wow-duration="10s">
-                                                <img className="img-flood rotate-90 objet-contain align-right bottom pt-[7.5rem] pb-[56.5rem] mr-[10rem] pr-[30px]  opacity-30 align-right absolute w-[318px] z-50 animate-right_left" src="./Res/logo2.png" />
+                                            <div className="relative" data-wow-iteration="infinite" data-wow-duration="10s">
+                                                <img className="img-flood  rotate-90 objet-contain align-right bottom pt-[7.5rem] pb-[56.5rem] mr-[10rem] pr-[30px] opacity-30 align-right absolute w-[318px] z-50 animate-right_left" src="./Res/logo2.png" />
                                             </div>
                                             <h4 className="ml-3 mb-3 font-bold text-white text-xl">Let's dive into the <br /> Journey of Rusy A Laurent!  !</h4>
-                                            <div className="p-[60px] border-[1px] border-[#604d1d]">
+                                            <div className="p-[10px] sm:p-[30px] md:p-[60px] border-[1px] border-[#604d1d]">
                                                 <h2 className="font-light uppercase  text-4xl golden">Key <span className="font-bold">Facts</span></h2>
                                                 <ul className="pl-[10px] ml-[10px]">
                                                     <li className="py-[6px]">Rusy A Laurent is the first SPA channel in the world with 10 Million viewers in 10+ countries.</li>
@@ -101,7 +101,7 @@ const AboutUs = () => {
                     <div className="container mx-auto sm:px-4 max-w-full">
                         <div className="flex flex-wrap">
                             <div className="md:w-1/6 pr-4 pl-4"></div>
-                            <div className="md:w-4/5 pr-4 pl-4">
+                            <div className="md:w-4/5">
                                 <div className="flex flex-wrap">
                                     <div className="lg:w-1/2 pr-4 pl-4 md:ml-0 md:pl-0">
 
@@ -110,7 +110,7 @@ const AboutUs = () => {
                                                 <img className="rotate-90  objet-contain bottom-[20%] pt-[22.5rem]  opacity-30  absolute w-[358px] animate-right_left" src="./Res/logo2.png" />
                                             </div>
                                             <h4 className="ml-3 mb-3 font-bold text-white text-xl">Let's dive into the <br /> Potential of Rusy A Laurent! !</h4>
-                                            <div className="p-[60px] border-[1px] border-[#604d1d]">
+                                            <div className="p-[10px] sm:p-[30px] md:p-[60px] border-[1px] border-[#604d1d]">
                                                 <h2 className="font-light uppercase  text-4xl golden">Key <span className="font-bold">TERMS</span></h2>
                                                 <ul>
                                                     <li className="py-[6px]">Rusy A Laurent Spa offers a range of luxurious spa treatments designed to pamper and rejuvenate.</li>
@@ -142,7 +142,7 @@ const AboutUs = () => {
                     <div className="container mx-auto sm:px-4 max-w-full">
                         <div className="flex flex-wrap">
                             <div className="md:w-1/6 pr-4 pl-4"></div>
-                            <div className="md:w-4/5 pr-4 pl-4">
+                            <div className="md:w-4/5">
                                 <div className="flex flex-wrap">
                                     <div className="lg:w-1/2 pr-4 pl-4 md:mr-0 md:pr-0">
                                         <div className="tab-img">
@@ -157,7 +157,7 @@ const AboutUs = () => {
                                             </div>
                                             <h4 className="ml-3 mb-3 font-bold text-white text-xl">Let's dive into the <br /> Philosophy of Rusy A Laurent! !
                                             </h4>
-                                            <div className="p-[60px] border-[1px] border-[#604d1d]">
+                                            <div className="p-[10px] sm:p-[30px] md:p-[60px] border-[1px] border-[#604d1d]">
                                                 <h2 className="font-light uppercase  text-4xl golden">Key <span className="font-bold">TERMS</span></h2>
                                                 <ul className="pl-[10px] ml-[10px]">
                                                     <li className="py-[6px]">At Rusy A Laurent Spa, we believe in the holistic approach to wellness, emphasizing the interconnectedness of mind, body, and soul.</li>
@@ -167,7 +167,6 @@ const AboutUs = () => {
                                                     <li className="py-[6px]">In today's fast-paced world, we understand the importance of taking time to slow down and reconnect with oneself.</li>
                                                     <li className="py-[6px]">Our spa provides a tranquil sanctuary where guests can escape the stresses of daily life and cultivate mindfulness through relaxation techniques and serene surroundings.</li>
                                                     <li className="py-[6px]">We are dedicated to operating in an environmentally sustainable and socially responsible manner.</li>
-                                                    <li className="py-[6px]">From eco-friendly building materials to cruelty-free products, we strive to minimize our ecological footprint and uphold ethical standards throughout our operations.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -184,13 +183,13 @@ const AboutUs = () => {
             <section id="section1" className="px-6 py-16">
                 <div className="tab-pane opacity-100" id="future" role="tabpanel" aria-labelledby="nav-about-tab">
                     <div className="container mx-auto sm:px-4 max-w-full">
-                        <div className="flex items-center w-full">
+                        <div className="flex items-center w-full flex-col md:flex-row gap-y-4">
                             <div className="flex flex-wrap w-full md:w-1/2 z-9">
-                                <div className="w-full relative z-10 pl-[62px] md:pt-10">
+                                <div className="w-full relative z-10 md:pl-[62px] md:pt-10">
                                     <h2 className="stock-heading absolute text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] md:text-left text-center w-full lg:w-fit -z-10 -top-[1.75rem] lg:-top-[1.75rem]">
                                         Rusy A Laurent
                                     </h2>
-                                    <h2 className="text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] text-center md:text-left font-bold golden ml-[76px]">
+                                    <h2 className="text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] text-center md:text-left font-bold golden md:ml-[76px]">
                                         FUTURE
                                     </h2>
                                     <p className="text-white text-lg">Our customers are discerning in every aspect – and deservedly. <br /><br />
@@ -202,7 +201,7 @@ const AboutUs = () => {
                             </div>
                             <div className="md:w-1/2" >
                                 <div className="mb-6 pr-1 hover:before:border-[#f9b615] before:transition-all before:duration-300 w-full relative before:absolute before:w-full before:h-full before:border-4 before:bg-transparent before:animate-updown before:left-4 before:border-white before:z-20">
-                                    <img className="h-[1000px] object-cover w-full object-top" src="./Res/spa-boy.jpg" />
+                                    <img className="h-auto md:h-[1000px] object-cover w-full object-top" src="./Res/spa-boy.jpg" />
                                 </div>
                             </div>
 
@@ -216,10 +215,10 @@ const AboutUs = () => {
 
                     <div className="flex flex-wrap">
                         <div className="md:w-1/6 pr-4 pl-4"></div>
-                        <div className="md:w-4/5 pr-4 pl-4">
-                            <div className="">
+                        <div className="md:w-4/5">
+                            <div className="px-4 md:px-0 w-full">
                                 <div className="big-heading conclusionFtv text-white">
-                                    <h1 className="text-[107px] mt-[-80px] ml-[60px] font-bold uppercase z-9 relative golden font-gotham">Conclusion</h1>
+                                    <h1 className="lg:text-[107px] text-[2.5rem] sm:text-[4rem] mt-[-80px] lg:ml-[60px] font-bold uppercase z-9 relative golden font-gotham">Conclusion</h1>
                                 </div>
                                 <div className="font-Playfair futureB_box text-[#676b68]">
                                     <ul className="py-[4px] text-white">
@@ -229,14 +228,14 @@ const AboutUs = () => {
                                     </ul>
                                 </div>
                                 <div className="big-heading conclusionFtv mt-5 pt-3">
-                                    <h1 className="stock-heading text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] md:text-left text-center w-full lg:w-fit -z-10 -top-[1.75rem] lg:-top-[1.75rem]">Rusy A Laurent</h1>
-                                    <h1 className="golden  text-[107px] uppercase z-9 relative mt-[-7%] font-bold ml-[60px]">Features</h1>
+                                    <h1 className="stock-heading text-[2.75rem] sm:text-[4rem] lg:text-[4.5rem] 2xl:text-[6rem] text-left md:text-center w-full lg:w-fit -z-10">Rusy A Laurent</h1>
+                                    <h1 className="lg:text-[107px] text-[2.5rem] sm:text-[4rem] sm:-mt-[60px] -mt-[40px] lg:mt-[-80px] lg:ml-[60px] font-bold uppercase z-9 relative golden font-gotham">Features</h1>
                                 </div>
 
                                 <div className="font-Playfair futureB_box text-[#676b68]">
 
 
-                                    <b className="text-[#bfb39b] text-lg ml-[15px]">Here are some amazing facts about Rusy A Laurent:</b>
+                                    <b className="text-[#bfb39b] text-lg sm:ml-[15px]">Here are some amazing facts about Rusy A Laurent:</b>
 
                                     <div className="flex flex-col text-white gap-y-2 mt-5 pb-4 mb-4">
                                         <p><span className="font-bold tracking-wide mr-2">Luxurious Ambiance:</span> Step into a realm of tranquility adorned with elegant decor and soothing lighting, creating an ambiance of relaxation from the moment you arrive.

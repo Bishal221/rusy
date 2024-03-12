@@ -99,8 +99,8 @@ const Franchise = () => {
                             <p>There are 3 modules in the Baylen Salon <br />
                                 Franchise to choose from.</p>
                         </div>
-                        <div className='flex items-center justify-center md:flex-row flex-col gap-y-8 relative pt-6'>
-                            <div className='md:max-w-[400px] w-full'>
+                        <div className='flex items-center justify-center md:flex-row flex-wrap flex-col gap-y-8 relative pt-6'>
+                            <div className='xl:max-w-[400px] md:max-w-[300px] w-full'>
                                 <p className='text-right text-lg pb-3 pr-3'>01</p>
                                 <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
                                     <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
@@ -118,7 +118,7 @@ const Franchise = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className='md:max-w-[400px] w-full relative md:top-10'>
+                            <div className='xl:max-w-[400px] md:max-w-[300px] w-full relative'>
                                 <p className='text-right text-lg pb-3 pr-3'>02</p>
                                 <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
                                     <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
@@ -136,7 +136,7 @@ const Franchise = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div className='md:max-w-[400px] w-full relative md:-top-48'>
+                            <div className='xl:max-w-[400px] md:max-w-[300px] w-full relative'>
                                 <p className='text-right text-lg pb-3 pr-3'>03</p>
                                 <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
                                     <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
@@ -154,56 +154,7 @@ const Franchise = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="section2" className="px-6 text-white py-16">
-                    <div className='container mx-auto'>
-                        <div className='relative'>
-                            <h2 className="text-[2.25rem] lg:text-[3.5rem] 2xl:text-[4.5rem] golden text-center md:text-left font-bold">
-                                FRANCHISE (Gold)
-                            </h2>
-                            <p>There are 3 modules in the Baylen Salon <br />
-                                Franchise to choose from.</p>
-                        </div>
-                        <div className='flex items-center justify-center md:flex-row flex-col gap-y-8 relative pt-6'>
-                            <div className='md:max-w-[400px] w-full'>
-                                <p className='text-right text-lg pb-3 pr-3'>01</p>
-                                <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
-                                    <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
-                                    <ul className='flex flex-col gap-y-3 text-lg list-disc pl-5'>
-                                        <li>FRANCHISE FEES <br />
-                                            <span className='font-semibold'> Rs. 15 LACS</span></li>
-                                        <li>AREA UP TO <br />
-                                            <span className='font-semibold'>750 to 1000 Sq. Ft.</span></li>
-                                        <li>TOTAL INVESTMENT <br />
-                                            <span className='font-semibold'>Rs. 60 to 80 LACS</span></li>
-                                        <li>Royalty <br />
-                                            <span className='font-semibold'>10%</span></li>
-                                        <li>ROI <br />
-                                            <span className='font-semibold'>60% (approx in 1 year)</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='md:max-w-[400px] w-full relative md:top-10'>
-                                <p className='text-right text-lg pb-3 pr-3'>02</p>
-                                <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
-                                    <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
-                                    <ul className='flex flex-col gap-y-3 text-lg list-disc pl-5'>
-                                        <li>FRANCHISE FEES <br />
-                                            <span className='font-semibold'> Rs. 15 LACS</span></li>
-                                        <li>AREA UP TO <br />
-                                            <span className='font-semibold'>750 to 1000 Sq. Ft.</span></li>
-                                        <li>TOTAL INVESTMENT <br />
-                                            <span className='font-semibold'>Rs. 60 to 80 LACS</span></li>
-                                        <li>Royalty <br />
-                                            <span className='font-semibold'>10%</span></li>
-                                        <li>ROI <br />
-                                            <span className='font-semibold'>60% (approx in 1 year)</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='md:max-w-[400px] w-full relative md:-top-48'>
+                            <div className='xl:max-w-[400px] md:max-w-[300px] w-full relative'>
                                 <p className='text-right text-lg pb-3 pr-3'>03</p>
                                 <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
                                     <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
@@ -221,56 +172,7 @@ const Franchise = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="section2" className="px-6 text-white py-16">
-                    <div className='container mx-auto'>
-                        <div className='relative'>
-                            <h2 className="text-[2.25rem] lg:text-[3.5rem] 2xl:text-[4.5rem] golden text-center md:text-left font-bold">
-                                FRANCHISE (Daimond)
-                            </h2>
-                            <p>There are 3 modules in the Baylen Salon <br />
-                                Franchise to choose from.</p>
-                        </div>
-                        <div className='flex items-center justify-center md:flex-row flex-col gap-y-8 relative pt-6'>
-                            <div className='md:max-w-[400px] w-full'>
-                                <p className='text-right text-lg pb-3 pr-3'>01</p>
-                                <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
-                                    <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
-                                    <ul className='flex flex-col gap-y-3 text-lg list-disc pl-5'>
-                                        <li>FRANCHISE FEES <br />
-                                            <span className='font-semibold'> Rs. 15 LACS</span></li>
-                                        <li>AREA UP TO <br />
-                                            <span className='font-semibold'>750 to 1000 Sq. Ft.</span></li>
-                                        <li>TOTAL INVESTMENT <br />
-                                            <span className='font-semibold'>Rs. 60 to 80 LACS</span></li>
-                                        <li>Royalty <br />
-                                            <span className='font-semibold'>10%</span></li>
-                                        <li>ROI <br />
-                                            <span className='font-semibold'>60% (approx in 1 year)</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='md:max-w-[400px] w-full relative md:top-10'>
-                                <p className='text-right text-lg pb-3 pr-3'>02</p>
-                                <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
-                                    <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
-                                    <ul className='flex flex-col gap-y-3 text-lg list-disc pl-5'>
-                                        <li>FRANCHISE FEES <br />
-                                            <span className='font-semibold'> Rs. 15 LACS</span></li>
-                                        <li>AREA UP TO <br />
-                                            <span className='font-semibold'>750 to 1000 Sq. Ft.</span></li>
-                                        <li>TOTAL INVESTMENT <br />
-                                            <span className='font-semibold'>Rs. 60 to 80 LACS</span></li>
-                                        <li>Royalty <br />
-                                            <span className='font-semibold'>10%</span></li>
-                                        <li>ROI <br />
-                                            <span className='font-semibold'>60% (approx in 1 year)</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='md:max-w-[400px] w-full relative md:-top-48'>
+                            <div className='xl:max-w-[400px] md:max-w-[300px] w-full relative'>
                                 <p className='text-right text-lg pb-3 pr-3'>03</p>
                                 <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
                                     <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
@@ -286,186 +188,6 @@ const Franchise = () => {
                                         <li>ROI <br />
                                             <span className='font-semibold'>60% (approx in 1 year)</span></li>
                                     </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="section2" className="px-6 text-white py-16">
-                    <div className='container mx-auto'>
-                        <div className='relative'>
-                            <h2 className="text-[2.25rem] lg:text-[3.5rem] 2xl:text-[4.5rem] golden text-center md:text-left font-bold">
-                                FRANCHISE (Royale)
-                            </h2>
-                            <p>There are 3 modules in the Baylen Salon <br />
-                                Franchise to choose from.</p>
-                        </div>
-                        <div className='flex items-center justify-center md:flex-row flex-col gap-y-8 relative pt-6'>
-                            <div className='md:max-w-[400px] w-full'>
-                                <p className='text-right text-lg pb-3 pr-3'>01</p>
-                                <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
-                                    <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
-                                    <ul className='flex flex-col gap-y-3 text-lg list-disc pl-5'>
-                                        <li>FRANCHISE FEES <br />
-                                            <span className='font-semibold'> Rs. 15 LACS</span></li>
-                                        <li>AREA UP TO <br />
-                                            <span className='font-semibold'>750 to 1000 Sq. Ft.</span></li>
-                                        <li>TOTAL INVESTMENT <br />
-                                            <span className='font-semibold'>Rs. 60 to 80 LACS</span></li>
-                                        <li>Royalty <br />
-                                            <span className='font-semibold'>10%</span></li>
-                                        <li>ROI <br />
-                                            <span className='font-semibold'>60% (approx in 1 year)</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='md:max-w-[400px] w-full relative md:top-10'>
-                                <p className='text-right text-lg pb-3 pr-3'>02</p>
-                                <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
-                                    <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
-                                    <ul className='flex flex-col gap-y-3 text-lg list-disc pl-5'>
-                                        <li>FRANCHISE FEES <br />
-                                            <span className='font-semibold'> Rs. 15 LACS</span></li>
-                                        <li>AREA UP TO <br />
-                                            <span className='font-semibold'>750 to 1000 Sq. Ft.</span></li>
-                                        <li>TOTAL INVESTMENT <br />
-                                            <span className='font-semibold'>Rs. 60 to 80 LACS</span></li>
-                                        <li>Royalty <br />
-                                            <span className='font-semibold'>10%</span></li>
-                                        <li>ROI <br />
-                                            <span className='font-semibold'>60% (approx in 1 year)</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='md:max-w-[400px] w-full relative md:-top-48'>
-                                <p className='text-right text-lg pb-3 pr-3'>03</p>
-                                <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
-                                    <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
-                                    <ul className='flex flex-col gap-y-3 text-lg list-disc pl-5'>
-                                        <li>FRANCHISE FEES <br />
-                                            <span className='font-semibold'> Rs. 15 LACS</span></li>
-                                        <li>AREA UP TO <br />
-                                            <span className='font-semibold'>750 to 1000 Sq. Ft.</span></li>
-                                        <li>TOTAL INVESTMENT <br />
-                                            <span className='font-semibold'>Rs. 60 to 80 LACS</span></li>
-                                        <li>Royalty <br />
-                                            <span className='font-semibold'>10%</span></li>
-                                        <li>ROI <br />
-                                            <span className='font-semibold'>60% (approx in 1 year)</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="section2" className="px-6 text-white py-16">
-                    <div className='container mx-auto'>
-                        <div className='relative'>
-                            <h2 className="text-[2.25rem] lg:text-[3.5rem] 2xl:text-[4.5rem] golden text-center md:text-left font-bold">
-                                FRANCHISE (Luxary)
-                            </h2>
-                            <p>There are 3 modules in the Baylen Salon <br />
-                                Franchise to choose from.</p>
-                        </div>
-                        <div className='flex items-center justify-center md:flex-row flex-col gap-y-8 relative pt-6'>
-                            <div className='md:max-w-[400px] w-full'>
-                                <p className='text-right text-lg pb-3 pr-3'>01</p>
-                                <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
-                                    <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
-                                    <ul className='flex flex-col gap-y-3 text-lg list-disc pl-5'>
-                                        <li>FRANCHISE FEES <br />
-                                            <span className='font-semibold'> Rs. 15 LACS</span></li>
-                                        <li>AREA UP TO <br />
-                                            <span className='font-semibold'>750 to 1000 Sq. Ft.</span></li>
-                                        <li>TOTAL INVESTMENT <br />
-                                            <span className='font-semibold'>Rs. 60 to 80 LACS</span></li>
-                                        <li>Royalty <br />
-                                            <span className='font-semibold'>10%</span></li>
-                                        <li>ROI <br />
-                                            <span className='font-semibold'>60% (approx in 1 year)</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='md:max-w-[400px] w-full relative md:top-10'>
-                                <p className='text-right text-lg pb-3 pr-3'>02</p>
-                                <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
-                                    <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
-                                    <ul className='flex flex-col gap-y-3 text-lg list-disc pl-5'>
-                                        <li>FRANCHISE FEES <br />
-                                            <span className='font-semibold'> Rs. 15 LACS</span></li>
-                                        <li>AREA UP TO <br />
-                                            <span className='font-semibold'>750 to 1000 Sq. Ft.</span></li>
-                                        <li>TOTAL INVESTMENT <br />
-                                            <span className='font-semibold'>Rs. 60 to 80 LACS</span></li>
-                                        <li>Royalty <br />
-                                            <span className='font-semibold'>10%</span></li>
-                                        <li>ROI <br />
-                                            <span className='font-semibold'>60% (approx in 1 year)</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className='md:max-w-[400px] w-full relative md:-top-48'>
-                                <p className='text-right text-lg pb-3 pr-3'>03</p>
-                                <div className='border border-[rgba(255,255,255,0.5)] px-10 py-6 flex flex-col gap-y-5'>
-                                    <h1 className='golden text-2xl font-semibold'>LITE MODULE</h1>
-                                    <ul className='flex flex-col gap-y-3 text-lg list-disc pl-5'>
-                                        <li>FRANCHISE FEES <br />
-                                            <span className='font-semibold'> Rs. 15 LACS</span></li>
-                                        <li>AREA UP TO <br />
-                                            <span className='font-semibold'>750 to 1000 Sq. Ft.</span></li>
-                                        <li>TOTAL INVESTMENT <br />
-                                            <span className='font-semibold'>Rs. 60 to 80 LACS</span></li>
-                                        <li>Royalty <br />
-                                            <span className='font-semibold'>10%</span></li>
-                                        <li>ROI <br />
-                                            <span className='font-semibold'>60% (approx in 1 year)</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="section3" className="px-6 text-white py-16">
-                    <div className='flex items-center flex-col md:flex-row gap-y-5'>
-                        <div className="pr-1 hover:before:border-[#f9b615] before:transition-all before:duration-300 w-full md:w-1/2 relative before:absolute before:w-full before:h-full before:border-4 before:bg-transparent before:animate-updown before:left-4 before:border-white before:z-20">
-                            <img className="" src="https://cdn.pixabay.com/photo/2016/08/11/02/23/massage-therapy-1584711_1280.jpg" alt="" />
-                        </div>
-                        <div className='md:w-1/2 w-full md:ml-10'>
-                            <div className='flex flex-col justify-center items-center  w-full'>
-                                <div className='w-full md:max-w-[600px]'>
-                                    <h1 className='text-[2.25rem] uppercase lg:text-[3.5rem] 2xl:text-[3.5rem] golden text-center md:text-left font-bold'>Enquire <span className='font-light'>now</span></h1>
-                                    <form action="#" className='flex items-center flex-col justify-center w-full'>
-                                        <input type="text" className='bg-transparent block w-full py-2  border px-2 my-2 text-lg' placeholder='Your Name' />
-                                        <select className='bg-transparent block w-full py-2 border px-2 my-2 text-lg' value={selectedState} onChange={handleStateChange}>
-                                            <option className='bg-transparent text-black px-4' value="" disabled>Select State</option>
-                                            {indianStatesAndCities.map((stateObj, index) => (
-                                                <option className='bg-transparent text-black px-4' key={index} value={stateObj.state}>
-                                                    {stateObj.state}
-                                                </option>
-                                            ))}
-                                        </select>
-                                        <select className='bg-transparent block w-full py-2 border px-2 my-2 text-lg' value={selectedCity} onChange={handleCityChange} disabled={!selectedState}>
-                                            <option disabled value="" className='bg-transparent text-black px-4'>Select City</option>
-                                            {indianStatesAndCities
-                                                .find((stateObj) => stateObj.state === selectedState)
-                                                ?.cities.map((city, index) => (
-                                                    <option className='bg-transparent text-black px-4' key={index} value={city}>
-                                                        {city}
-                                                    </option>
-                                                ))}
-                                        </select>
-                                        <select className='bg-transparent block w-full py-2 border px-2 my-2 text-lg'>
-                                            <option disabled value="" selected className='bg-transparent text-black px-4'>Investment Capacity</option>
-                                            <option value="" className='bg-transparent text-black px-4'>Lite - 40Lac</option>
-                                            <option value="" className='bg-transparent text-black px-4'>Regular - 1Cr</option>
-                                            <option value="" className='bg-transparent text-black px-4'>Luxary - 1.25Cr</option>
-                                        </select>
-                                        <input placeholder='Email Address' className='bg-transparent block w-full py-2 border px-2 my-2 text-lg' type="email" />
-                                        <input placeholder='Contact Number' className='bg-transparent block w-full py-2 border px-2 my-2 text-lg' type="number" />
-                                        <textarea placeholder='Message' className='bg-transparent block w-full py-2 h-[200px] resize-none border px-2 my-2 text-lg'></textarea>
-                                        <button className='uppercase px-11 ml-auto mt-4 font-medium py-3 rounded-full bg-[#f9b615]'>submit</button>
-                                    </form>
                                 </div>
                             </div>
                         </div>

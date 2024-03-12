@@ -60,7 +60,7 @@ const Header = () => {
   return (
     <>
     <ScrollToTopButton />
-    <nav className="absolute w-full z-40 py-4 px-5">
+    <nav className="absolute w-full z-40 py-4 px-2 sm:px-5">
           <div className="relative flex flex-wrap items-center justify-between">
             <a
               href="#"
@@ -72,7 +72,7 @@ const Header = () => {
               <div>
                 <a
                   href="#"
-                  className="bg_golden font-semibold uppercase text-white text-xs block tracking-[0.9px] px-3 md:px-4 pt-2 pb-2 rounded-2xl"
+                  className="bg_golden font-semibold uppercase text-white text-xs block tracking-[0.9px] px-2 md:px-4 pt-2 pb-2 rounded-2xl"
                 >
                   Book Appointment
                 </a>
@@ -98,6 +98,12 @@ const Header = () => {
               <i className="fa-solid fa-bars"></i>
             </button>
             <div className=" flex justify-center flex-col px-6 gap-y-3 font-playfair">
+              <a
+                className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
+                href="#"
+              >
+                Vist our store
+              </a>
               <a
                 className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
                 href="/"

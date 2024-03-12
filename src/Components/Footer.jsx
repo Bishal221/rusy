@@ -91,38 +91,43 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-x-5">
                 <div className="flex gap-x-4">
-                  <PhoneButton phoneNumber="8877001122" text="Rusy A Laurent Spa" />
+                  <PhoneButton phoneNumber="8877177776" text="Rusy A Laurent Spa" />
                   
                 </div>
               </div>
               <div className="flex  items-center gap-x-5">
                 <a
                   className="bg-white flex justify-center items-center text-3xl golden hover:text-white hover:bg_golden transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full"
-                  href="#"
+                  href="https://www.facebook.com/share/K9GR9F9NMwvw5jrL/?mibextid=qi2Omg"
+                  target='_blank'
                 >
                   <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a
                   className="bg-white flex justify-center items-center text-3xl golden hover:text-white hover:bg_golden transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full"
-                  href="#"
+                  href="https://facebook.com/"
+                  target='_blank'
                 >
                   <i className="fa-brands fa-youtube"></i>
                 </a>
                 <a
                   className="bg-white flex justify-center items-center text-3xl golden hover:text-white hover:bg_golden transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full"
-                  href="#"
+                  href="https://www.instagram.com/rusyspa?igsh=MXR3NG9lcWJudGVsZg=="
+                  target='_blank'
                 >
                   <i className="fa-brands fa-instagram"></i>
                 </a>
                 <a
                   className="bg-white flex justify-center items-center text-3xl golden hover:text-white hover:bg_golden transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full"
-                  href="#"
+                  href="http://linkedIn.com"
+                  target='_blank'
                 >
                   <i className="fa-brands fa-linkedin-in"></i>
                 </a>
                 <a
                   className="bg-white flex justify-center items-center text-3xl golden hover:text-white hover:bg_golden transition-all duration-300 font-medium uppercase w-9 h-9 rounded-full"
-                  href="#"
+                  href="https://x.com/RusySpa?t=qyzNfGZc_NT6vZGaBmxvYA&s=09"
+                  target='_blank'
                 >
                   <i className="fa-brands fa-x-twitter"></i>
                 </a>
@@ -131,7 +136,7 @@ const Footer = () => {
                 <p className="text-white hover:golden transition-all duration-300 font-medium uppercase">
                   Copyright © {year}.{" "}
                   <span className="uppercase">
-                  E.B.H.
+                  Western Lifestyle Ventures
                   </span>
                 </p>
               </div>
