@@ -10,6 +10,7 @@ import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
 import Franchise from "./Pages/Franchise";
 import ContactUs from "./Pages/ContactUs";
+import BookAppointment from "./Pages/BookAppointment";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/contact-us",
     element: <ContactUs />,
+  },
+  {
+    path: "/book-appointment",
+    element: <BookAppointment />,
   },
 ]);
 

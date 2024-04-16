@@ -63,7 +63,7 @@ const Header = () => {
     <nav className="absolute w-full z-40 py-4 px-2 sm:px-5">
           <div className="relative flex flex-wrap items-center justify-between">
             <a
-              href="#"
+              href="/"
               className="max-w-32 md:max-w-64 text-[rgba(0,0,0,0.9)] inline-block py-[.3125rem] mr-4 text-lg "
             >
               <img src="/Res/logo2.png" alt="" />
@@ -71,10 +71,10 @@ const Header = () => {
             <div className="flex gap-x-2 items-center justify-between">
               <div>
                 <a
-                  href="#"
+                  href="/contact-us"
                   className="bg_golden font-semibold uppercase text-white text-xs block tracking-[0.9px] px-2 md:px-4 pt-2 pb-2 rounded-2xl"
                 >
-                  Book Appointment
+                  8877177776
                 </a>
               </div>
               <button
@@ -102,7 +102,7 @@ const Header = () => {
                 className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
                 href="#"
               >
-                Vist our store
+                Visit our store
               </a>
               <a
                 className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
@@ -130,9 +130,9 @@ const Header = () => {
               </a>
               <a
                 className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"
-                href="#"
+                href="/book-appointment"
               >
-                Spa
+                Book Appointment
               </a>
               <a
                 className="block px-3 py-2 text-2xl bg_golden  hover:text-white rounded-lg font-semibold"

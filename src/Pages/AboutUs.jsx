@@ -20,7 +20,7 @@ const AboutUs = () => {
                                 <div className="tab-inner">
                                     <div className="pb-[100px] mx-[25%]">
                                         <div className="wow bounceInDown dNoneSet" data-wow-duration="2s" data-wow-delay="">
-                                            <img className="w-md opacity-15" src="public\Res\logo2.png" />
+                                            <img className="w-md opacity-15" src="/Res/logo2.png" />
                                         </div>
                                     </div>
                                     <div className="relative bottom-[120px] text-center">

@@ -104,13 +104,13 @@ const ContactUs = () => {
                                         </select>
                                         <select className='bg-transparent block w-full py-2 border px-2 my-2 text-lg'>
                                             <option disabled value="" selected className='bg-transparent text-black px-4'>Franchise Model</option>
+                                            <option value="" className='bg-transparent text-black px-4'>Silver</option>
                                             <option value="" className='bg-transparent text-black px-4'>Gold</option>
                                             <option value="" className='bg-transparent text-black px-4'>Daimond</option>
-                                            <option value="" className='bg-transparent text-black px-4'>Luxary</option>
-                                            <option value="" className='bg-transparent text-black px-4'>Royale</option>
+                                            <option value="" className='bg-transparent text-black px-4'>Royale 5 ★★★★★</option>
+                                            <option value="" className='bg-transparent text-black px-4'>Luxary 7 ★★★★★★★</option>
                                         </select>
                                         <select className='bg-transparent block w-full py-2 border px-2 my-2 text-lg'>
-                                            <option disabled value="" selected className='bg-transparent text-black px-4'>Budget</option>
                                             <option value="" className='bg-transparent text-black px-4'>Under 3 Lacs</option>
                                             <option value="" className='bg-transparent text-black px-4'>Under 5 Lacs</option>
                                             <option value="" className='bg-transparent text-black px-4'>Between 10 - 15 Lacs</option>
