@@ -17,7 +17,7 @@ const Services = () => {
                 <div className="container mx-auto flex-col md:flex-row flex justify-center gap-x-6 gap-y-5">
                     <div className="w-full md:w-1/2 relative z-10 md:pt-10">
                         <h2 className="stock-heading text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] md:text-left text-center w-full lg:w-fit absolute -z-10 -top-[1.75rem] lg:-top-[1.75rem]">
-                            Rusy A Laurent
+                            Euro Beauty Spa
                         </h2>
                         <h2 className="text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] text-white text-center md:text-left font-bold">
                             SERVICES
@@ -48,7 +48,7 @@ const Services = () => {
 
                         Experience the healing power of touch as you immerse yourself in a tranquil environment designed to soothe the senses. Whether you seek relief from stress, pain, or simply desire a moment of pure indulgence, our massage therapy will leave you feeling refreshed, revitalized, and restored.</p>
                         <h2 className="stock-heading-white text-white text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] md:text-left text-center w-full hidden lg:block lg:w-fit absolute -z-10 top-[74%] xl:top-1/2">
-                            Rusy A Laurent
+                            Euro Beauty Spa
                         </h2>
                     </div>
                 </div>
@@ -85,7 +85,7 @@ const Services = () => {
                         </h2>
                         <p className="text-white text-lg">Surrender to bliss as our skilled therapists pamper you with indulgent scrubs and wraps, meticulously crafted to exfoliate, detoxify, and replenish your skin. Luxuriate in the healing properties of our premium products, carefully selected to nourish and hydrate, leaving your skin irresistibly soft and radiant.<br /><br />
 
-                        Whether you seek deep relaxation, detoxification, or revitalization, our tailored treatments cater to your individual needs, restoring harmony to your body and soul. Escape the hustle and bustle of everyday life and immerse yourself in a sanctuary of serenity at Rusy A Laurent.</p>
+                        Whether you seek deep relaxation, detoxification, or revitalization, our tailored treatments cater to your individual needs, restoring harmony to your body and soul. Escape the hustle and bustle of everyday life and immerse yourself in a sanctuary of serenity at Euro Beauty Spa.</p>
                         <h2 className="stock-heading-white text-white text-[2.75rem] 2xl:text-[4rem] md:text-left text-center w-full lg:w-fit absolute -z-10 lg:block hidden top-[70%] 2xl:top-1/2">
                             Spa & Massage
                         </h2>
@@ -107,7 +107,7 @@ const Services = () => {
                         <p className="text-white text-lg">Our skilled technicians meticulously tend to your hands and feet, shaping nails to perfection and nourishing the skin with luxurious treatments. Relax in our serene ambiance as we indulge you in a blissful soak, followed by gentle exfoliation and hydrating massage to revitalize tired hands and feet.<br /><br />
 
                         Choose from a spectrum of trendy colors or classic hues from our premium nail polish collection for a polished finish that reflects your style. Step into a world of luxury and emerge with impeccably groomed nails and a renewed sense of well-being.</p>
-                            <h2 class="stock-heading-white  text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] md:text-left text-center w-full lg:w-fit absolute lg:top-1/2">Rusy A Laurent</h2>
+                            <h2 class="stock-heading-white  text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] md:text-left text-center w-full lg:w-fit absolute lg:top-1/2">Euro Beauty Spa</h2>
                     </div>
                     <div className="pr-1 hover:before:border-[#f9b615] before:transition-all before:duration-300 w-full md:w-1/2 z-10 relative before:absolute before:w-full before:h-full before:border-4 before:bg-transparent before:animate-updown before:left-4 before:border-white before:z-20">
                         <img className="" src="https://cdn.pixabay.com/photo/2017/10/27/16/45/cosmeatria-2894865_1280.jpg" alt="" />

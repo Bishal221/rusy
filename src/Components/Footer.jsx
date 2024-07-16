@@ -61,12 +61,12 @@ const Footer = () => {
   return (
     <>
       <section className="flex justify-center items-center pt-20 pb-10 gap-y-10 px-4">
-        <div className="w-full mt-10 flex md:flex-row flex-col justify-between max-w-[1500px] gap-x-5 gap-y-5">
+        <div className="w-full mt-10 flex md:flex-row flex-col justify-center max-w-[1500px] gap-x-5 gap-y-5">
           <div className=" w-full md:w-1/2 order-2 md:order-1">
-            <p className="text-sm golden font-semibold tracking-wider">
+            <p className="text-sm golden text-center font-semibold tracking-wider">
               SUBSCRIBE TO OUR NEWSLETTER
             </p>
-            <div className="mt-6 py-2 px-5 rounded-full flex items-center justify-center bg_golden text-white max-w-[400px] w-full mb-8">
+            <div className="mt-6 mx-auto py-2 px-5 rounded-full flex items-center justify-center bg_golden text-white max-w-[400px] w-full mb-8">
               <span>
                 <i className="fa-regular fa-envelope"></i>
               </span>
@@ -79,7 +79,7 @@ const Footer = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
             </div>
-            <div className="flex md:items-start items-center flex-col gap-y-8 sm:text-base text-sm text-center">
+            <div className="flex items-center flex-col gap-y-8 sm:text-base text-sm text-center">
               <div className="flex items-center sm:gap-x-5 gap-x-3">
                 <a
                   className="text-white hover:golden transition-all duration-300 font-medium uppercase"
@@ -129,8 +129,8 @@ const Footer = () => {
                       <span className="text-white">
                         <i className="fa-solid fa-phone"></i>
                       </span>
-                      <a href="tel:8877177775" className="golden font-bold text-[1.1rem]">
-                      8877177775
+                      <a href="tel:8877003302" className="golden font-bold text-[1.1rem]">
+                      8877003302
                       </a>
                     </button>
                   </div>
@@ -181,7 +181,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-center w-full md:w-1/2 order-1 md:order-2 xl:max-w-[700px] xl:w-full gap-x-6 xl:flex-row flex-col gap-y-5">
+          {/* <div className="flex justify-center w-full md:w-1/2 order-1 md:order-2 xl:max-w-[700px] xl:w-full gap-x-6 xl:flex-row flex-col gap-y-5">
             <div className="w-full lg:w-[40%]">
               <h2 className="golden text-2xl font-bold uppercase">
                 our location
@@ -243,7 +243,7 @@ const Footer = () => {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

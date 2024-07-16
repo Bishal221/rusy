@@ -66,7 +66,7 @@ const Home = () => {
                 <span className="golden">FACIAL TREAMENTS</span>
               </h3>
               <h2 className="font-light text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl tracking-widest text-white">
-                WITH Rusy A Laurent!
+                WITH Euro Beauty Spa!
               </h2>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Home = () => {
                <span className="golden">MASSAGE</span> & <span className="golden">FACIAL</span> 
             </h3>
             <h2 className="font-light text-center text-lg sm:text-xl md:text-2xl lg:text-3xl tracking-widest text-white">
-              BY Rusy A Laurent
+              BY Euro Beauty Spa
             </h2>
           </div>
           <div className="mt-10 max-w-[1100px] flex justify-center items-center md:flex-row flex-col">
@@ -196,7 +196,7 @@ const Home = () => {
           <div className="container relative z-10">
             <div className="w-full lg:w-fit md:pl-5 pl-0">
               <h2 className="stock-heading sm:text-[4rem] text-[2.75rem] lg:text-left text-center w-full lg:w-fit absolute -z-10 sm:-top-[3rem] -top-[2rem] sm:-left-[.5rem]">
-                Rusy A Laurent
+                Euro Beauty Spa
               </h2>
               <h2 className="text-[1.75rem] sm:text-[2.5rem] lg:text-left text-center text-white font-bold">
                 RUSSIAN-THAI-LUXURY SPA
@@ -294,7 +294,7 @@ const Home = () => {
         <section className="lg:w-screen w-full h-[500px] md:h-[700px] lg:h-screen relative flex justify-center items-center z-10 px-4">
           <video
             muted
-            src="/Res/Footer.mp4"
+            src="/Res/Main-Banner.mp4"
             className="w-full h-full object-cover object-center absolute top-0 left-0 -z-10"
             autoPlay={true}
             loop="loop"
@@ -306,7 +306,7 @@ const Home = () => {
               Renew <br /> Your Spirit
             </p>
             <h2 className="text-[2rem] md:text-[3rem] lg:text-[7rem] golden text-center font-bold lg:leading-[1] md:leading-[1.2] font-playfair leading-[1.5]">
-              Rusy A Laurent
+              Euro Beauty Spa
             </h2>
           </div>
         </section>

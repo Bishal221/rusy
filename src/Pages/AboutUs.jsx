@@ -7,9 +7,9 @@ const AboutUs = () => {
             <Header />
             <section className="pt-28 pb-8 px-6">
                 <ul className="text-lg flex-wrap flex justify-center items-center list-disc gap-x-20 gap-y-3 max-w-[1500px] mx-auto font-normal">
-                    <li className="px-2 text-white golden-hover pb-6 border-b border-[rgba(255,255,255,0.6)] hover:border-[#f9b615] hover:border-b-2 transition-all duration-300 text-transform: uppercase" ><a href="#section2">Rusy A Laurent</a></li>
+                    <li className="px-2 text-white golden-hover pb-6 border-b border-[rgba(255,255,255,0.6)] hover:border-[#f9b615] hover:border-b-2 transition-all duration-300 text-transform: uppercase" ><a href="#section2">Euro Beauty Spa</a></li>
                     <li className="px-2 text-white golden-hover pb-6 border-b border-[rgba(255,255,255,0.6)] hover:border-[#f9b615] hover:border-b-2 transition-all duration-300"><a href="#section3">POTENTIAL</a></li>
-                    <li className="px-2 text-white golden-hover pb-6 border-b border-[rgba(255,255,255,0.6)] hover:border-[#f9b615] hover:border-b-2 transition-all duration-300 text-transform: uppercase"><a href="#section4">Rusy A Laurent PHILOSOPHY</a></li>
+                    <li className="px-2 text-white golden-hover pb-6 border-b border-[rgba(255,255,255,0.6)] hover:border-[#f9b615] hover:border-b-2 transition-all duration-300 text-transform: uppercase"><a href="#section4">Euro Beauty Spa PHILOSOPHY</a></li>
                 </ul>
             </section>
             <section id="section0" className="px-6 py-16">
@@ -24,14 +24,14 @@ const AboutUs = () => {
                                         </div>
                                     </div>
                                     <div className="relative bottom-[120px] text-center">
-                                        <h3 className="font-bold text-3xl font-sans font-lg-[30px] text-white">Think SPA, <span className="golden ">Think Rusy A Laurent!</span></h3>
+                                        <h3 className="font-bold text-3xl font-sans font-lg-[30px] text-white">Think SPA, <span className="golden ">Think Euro Beauty Spa!</span></h3>
                                         <p className="text-xs[30px] text-white uppercase pt-[15px]">From the very start, Rusy  has become<br /> synonymous with the best in the world of Spa,<br /> beauty, trends, and lifestyle. </p>
                                     </div>
                                     <div className="t-cnt my-15 text-center mt-[-73px]">
                                         <p className="text-white font-sarif fon-lg-lg mb-4">Get front row access to top Spa from leading experts of the world who showcase their latest performance assist by leading masters of the world. Catch all the action on the latest services from the spa of the world and all the behind the scene action.
                                         </p>
-                                        <p className="text-white font-sarif fon-lg-lg mb-4">It started as a way for people from the spa industry to relax out, this come up with a outlet dedicated 24*7 to spa services and this led to the birth of Aura. Today, Rusy A Laurent is loved globally.</p>
-                                        <h3 className="pt-5 text-lg text-wrap font-medium text-white">Rusy A Laurent is the biggest spa chain in the world and the only global service outlets focused exclusively on MASSAGE, HEALING, AND RELAXATION and SERENITY.</h3>
+                                        <p className="text-white font-sarif fon-lg-lg mb-4">It started as a way for people from the spa industry to relax out, this come up with a outlet dedicated 24*7 to spa services and this led to the birth of Aura. Today, Euro Beauty Spa is loved globally.</p>
+                                        <h3 className="pt-5 text-lg text-wrap font-medium text-white">Euro Beauty Spa is the biggest spa chain in the world and the only global service outlets focused exclusively on MASSAGE, HEALING, AND RELAXATION and SERENITY.</h3>
                                     </div>
                                     <div className="py-16">
 
@@ -55,7 +55,7 @@ const AboutUs = () => {
                                 <div className="flex flex-wrap ">
                                     <div className="lg:w-full pr-4 pl-4">
                                         <div className="py-[30px 0px] text-center">
-                                            <h2 className="text-3xl text-white font-light">What Makes Rusy A Laurent<br /><span className="golden"> the Authority on Rusy A Laurent</span></h2>
+                                            <h2 className="text-3xl text-white font-light">What Makes Euro Beauty Spa<br /><span className="golden"> the Authority on Euro Beauty Spa</span></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -71,17 +71,17 @@ const AboutUs = () => {
                                             <div className="relative" data-wow-iteration="infinite" data-wow-duration="10s">
                                                 <img className="img-flood  rotate-90 objet-contain align-right bottom pt-[7.5rem] pb-[56.5rem] mr-[10rem] pr-[30px] opacity-30 align-right absolute w-[318px] z-50 animate-right_left" src="./Res/logo2.png" />
                                             </div>
-                                            <h4 className="ml-3 mb-3 font-bold text-white text-xl">Let's dive into the <br /> Journey of Rusy A Laurent!  !</h4>
+                                            <h4 className="ml-3 mb-3 font-bold text-white text-xl">Let's dive into the <br /> Journey of Euro Beauty Spa!  !</h4>
                                             <div className="p-[10px] sm:p-[30px] md:p-[60px] border-[1px] border-[#604d1d]">
                                                 <h2 className="font-light uppercase  text-4xl golden">Key <span className="font-bold">Facts</span></h2>
                                                 <ul className="pl-[10px] ml-[10px]">
-                                                    <li className="py-[6px]">Rusy A Laurent is the first SPA channel in the world with 10 Million viewers in 10+ countries.</li>
+                                                    <li className="py-[6px]">Euro Beauty Spa is the first SPA channel in the world with 10 Million viewers in 10+ countries.</li>
                                                     <li className="py-[6px]">It broadcasts the latest news and information about the spa services, luxury and lifestyle in the world.</li>
-                                                    <li className="py-[6px]">Rusy A Laurent is the seventh most distributed channel in the world with 20+ service featured, holding a presence in 5 million serenity centers.</li>
-                                                    <li className="py-[6px]">Rusy A Laurent broadcasts exclusive premium content on the youtube Thematic Channels Worldwide.</li>
-                                                    <li className="py-[6px]">Rusy A Laurent has 1 million followers on Facebook where we get 10 million views per week.</li>
-                                                    <li className="py-[6px]">Rusy A Laurent boasts over 15 million views on YouTube.</li>
-                                                    <li className="py-[6px]">Rusy A Laurent has more than 50K followers on Instagram, where we achieve 12K Organic Reach per Month.</li>
+                                                    <li className="py-[6px]">Euro Beauty Spa is the seventh most distributed channel in the world with 20+ service featured, holding a presence in 5 million serenity centers.</li>
+                                                    <li className="py-[6px]">Euro Beauty Spa broadcasts exclusive premium content on the youtube Thematic Channels Worldwide.</li>
+                                                    <li className="py-[6px]">Euro Beauty Spa has 1 million followers on Facebook where we get 10 million views per week.</li>
+                                                    <li className="py-[6px]">Euro Beauty Spa boasts over 15 million views on YouTube.</li>
+                                                    <li className="py-[6px]">Euro Beauty Spa has more than 50K followers on Instagram, where we achieve 12K Organic Reach per Month.</li>
                                                     <li className="py-[6px]">On <a href="http://rusyspa.com" target="_blank"> rusyspa.com</a>, our official website, we get 5 million page views.</li>
                                                 </ul>
                                             </div>
@@ -109,14 +109,14 @@ const AboutUs = () => {
                                             <div className="" data-wow-iteration="infinite" data-wow-duration="10s">
                                                 <img className="rotate-90  objet-contain bottom-[20%] pt-[22.5rem]  opacity-30  absolute w-[358px] animate-right_left" src="./Res/logo2.png" />
                                             </div>
-                                            <h4 className="ml-3 mb-3 font-bold text-white text-xl">Let's dive into the <br /> Potential of Rusy A Laurent! !</h4>
+                                            <h4 className="ml-3 mb-3 font-bold text-white text-xl">Let's dive into the <br /> Potential of Euro Beauty Spa! !</h4>
                                             <div className="p-[10px] sm:p-[30px] md:p-[60px] border-[1px] border-[#604d1d]">
                                                 <h2 className="font-light uppercase  text-4xl golden">Key <span className="font-bold">TERMS</span></h2>
                                                 <ul>
-                                                    <li className="py-[6px]">Rusy A Laurent Spa offers a range of luxurious spa treatments designed to pamper and rejuvenate.</li>
+                                                    <li className="py-[6px]">Euro Beauty Spa Spa offers a range of luxurious spa treatments designed to pamper and rejuvenate.</li>
                                                     <li className="py-[6px]">Our team of highly skilled therapists brings years of experience and expertise to every session.</li>
                                                     <li className="py-[6px]">Trained in various techniques and therapies, they ensure that each client receives personalized care and attention, catering to their specific needs and preferences.</li>
-                                                    <li className="py-[6px]">Step into a world of tranquility and relaxation as you enter Rusy A Laurent Spa.</li>
+                                                    <li className="py-[6px]">Step into a world of tranquility and relaxation as you enter Euro Beauty Spa Spa.</li>
                                                     <li className="py-[6px]">Equipped with state-of-the-art facilities and amenities, our spa provides a comfortable and luxurious environment for our clients.</li>
                                                     <li className="py-[6px]">Enhance your spa experience with our exclusive line of skincare and beauty products, carefully curated to deliver exceptional results.</li>
                                                     <li className="py-[6px]">Prior to your treatment, our experienced therapists conduct personalized consultations to understand your unique needs and concerns.</li>
@@ -155,12 +155,12 @@ const AboutUs = () => {
                                             <div className="relative " data-wow-iteration="infinite" data-wow-duration="10s">
                                                 <img className="img-flood rotate-90 objet-contain align-right bottom pt-[7.5rem] pb-[56.5rem] mr-[10rem] pr-[30px]  opacity-30 align-right absolute w-[318px] z-50 animate-right_left" src="./Res/logo2.png" />
                                             </div>
-                                            <h4 className="ml-3 mb-3 font-bold text-white text-xl">Let's dive into the <br /> Philosophy of Rusy A Laurent! !
+                                            <h4 className="ml-3 mb-3 font-bold text-white text-xl">Let's dive into the <br /> Philosophy of Euro Beauty Spa! !
                                             </h4>
                                             <div className="p-[10px] sm:p-[30px] md:p-[60px] border-[1px] border-[#604d1d]">
                                                 <h2 className="font-light uppercase  text-4xl golden">Key <span className="font-bold">TERMS</span></h2>
                                                 <ul className="pl-[10px] ml-[10px]">
-                                                    <li className="py-[6px]">At Rusy A Laurent Spa, we believe in the holistic approach to wellness, emphasizing the interconnectedness of mind, body, and soul.</li>
+                                                    <li className="py-[6px]">At Euro Beauty Spa Spa, we believe in the holistic approach to wellness, emphasizing the interconnectedness of mind, body, and soul.</li>
                                                     <li className="py-[6px]">Our philosophy is rooted in the idea that true beauty and well-being can only be achieved when these elements are in perfect harmony.</li>
                                                     <li className="py-[6px]">We embrace the power of nature's remedies and incorporate them into our treatments. From organic skincare products to herbal infusions, we prioritize natural healing methods that nourish and rejuvenate both the body and the spirit.</li>
                                                     <li className="py-[6px]">Recognizing that each individual is unique, we tailor our services to meet the specific needs and preferences of our clients.</li>
@@ -187,7 +187,7 @@ const AboutUs = () => {
                             <div className="flex flex-wrap w-full md:w-1/2 z-9">
                                 <div className="w-full relative z-10 md:pl-[62px] md:pt-10">
                                     <h2 className="stock-heading absolute text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] md:text-left text-center w-full lg:w-fit -z-10 -top-[1.75rem] lg:-top-[1.75rem]">
-                                        Rusy A Laurent
+                                        Euro Beauty Spa
                                     </h2>
                                     <h2 className="text-[2.75rem] lg:text-[4.5rem] 2xl:text-[6rem] text-center md:text-left font-bold golden md:ml-[76px]">
                                         FUTURE
@@ -228,14 +228,14 @@ const AboutUs = () => {
                                     </ul>
                                 </div>
                                 <div className="big-heading conclusionFtv mt-5 pt-3">
-                                    <h1 className="stock-heading text-[2.75rem] sm:text-[4rem] lg:text-[4.5rem] 2xl:text-[6rem] text-left md:text-center w-full lg:w-fit -z-10">Rusy A Laurent</h1>
+                                    <h1 className="stock-heading text-[2.75rem] sm:text-[4rem] lg:text-[4.5rem] 2xl:text-[6rem] text-left md:text-center w-full lg:w-fit -z-10">Euro Beauty Spa</h1>
                                     <h1 className="lg:text-[107px] text-[2.5rem] sm:text-[4rem] sm:-mt-[60px] -mt-[40px] lg:mt-[-80px] lg:ml-[60px] font-bold uppercase z-9 relative golden font-gotham">Features</h1>
                                 </div>
 
                                 <div className="font-Playfair futureB_box text-[#676b68]">
 
 
-                                    <b className="text-[#bfb39b] text-lg sm:ml-[15px]">Here are some amazing facts about Rusy A Laurent:</b>
+                                    <b className="text-[#bfb39b] text-lg sm:ml-[15px]">Here are some amazing facts about Euro Beauty Spa:</b>
 
                                     <div className="flex flex-col text-white gap-y-2 mt-5 pb-4 mb-4">
                                         <p><span className="font-bold tracking-wide mr-2">Luxurious Ambiance:</span> Step into a realm of tranquility adorned with elegant decor and soothing lighting, creating an ambiance of relaxation from the moment you arrive.

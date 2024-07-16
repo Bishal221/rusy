@@ -64,17 +64,17 @@ const Header = () => {
           <div className="relative flex flex-wrap items-center justify-between">
             <a
               href="/"
-              className="max-w-32 md:max-w-64 text-[rgba(0,0,0,0.9)] inline-block py-[.3125rem] mr-4 text-lg "
+              className="max-w-[5rem] text-[rgba(0,0,0,0.9)] inline-block py-[.3125rem] mr-4 text-lg "
             >
               <img src="/Res/logo2.png" alt="" />
             </a>
             <div className="flex gap-x-2 items-center justify-between">
               <div>
                 <a
-                  href="/contact-us"
+                  href="tel:8877003302"
                   className="bg_golden font-semibold uppercase text-white text-xs block tracking-[0.9px] px-2 md:px-4 pt-2 pb-2 rounded-2xl"
                 >
-                  8877177776
+                  8877003302
                 </a>
               </div>
               <button

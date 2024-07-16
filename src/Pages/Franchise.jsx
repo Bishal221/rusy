@@ -78,7 +78,7 @@ const Franchise = () => {
                             <a href='/Res/spa-franchaise.pdf' target='_blank' className='sm:pl-10 pt-3 flex gap-x-2'>
                                 <div><i className="fa-solid text-3xl text-white fa-file-pdf"></i></div>
                                 <div className='text-white'>
-                                    <p>Rusy A Laurent Kit</p>
+                                    <p>Euro Beauty Spa Kit</p>
                                     <p>for <span className='golden font-medium'>Download</span></p>
                                 </div>
                             </a>
